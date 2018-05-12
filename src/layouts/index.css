@@ -202,18 +202,22 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
-  font-size: 14pt;
+  font-size: 16pt;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  
+}
+.head {
+  background: black;
   background-image: url(/static/img/products-itlay2.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 img {
   max-width: 100%;
@@ -635,4 +639,5 @@ pre tt:after {
 .big {
   font-size: 160%;
   line-height: 160%;
+  text-align: center;
 }

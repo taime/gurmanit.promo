@@ -13,8 +13,7 @@ const IndexPage = () => (
     </p>
 
 <p className='big'>
-8-926-527-0007 <br/>
-8-977-440-8375
+8-926-527-0007<br/>8-977-440-8375
 </p>
 
     {/* <Link to="/page-2/">Go to page 2</Link> */}

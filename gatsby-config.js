@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gurmanit.Ru — продукты из Италии',
+    title: 'Gurmanit.Ru',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
