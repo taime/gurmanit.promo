@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{104:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gurmanit.Ru — продукты из Италии"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----89d32ba503adb835ecd9.js.map
