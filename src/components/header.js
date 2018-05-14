@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: 'white',
             textDecoration: 'none',
-            fontSize: '1.7em',
+            fontSize: '1.7cd em',
             textShadow: 'RGB(35,45,35) 0 0 7px',
             fontWeight: 400
 
