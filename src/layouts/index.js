@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { YMInitializer } from 'react-yandex-metrika';
 
 import Header from '../components/header'
+// import YaMetrika from '../components/ya-metrika'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -26,7 +27,10 @@ const Layout = ({ children, data }) => (
       }}
     >
       {children()}
-      <YMInitializer accounts={[49113511]} />
+      
+
+      <YMInitializer accounts={[49113511]} version="2" />
+      {/* <YaMetrika /> */}
     </div>
     
   </div>
