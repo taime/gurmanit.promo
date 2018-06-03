@@ -30,7 +30,7 @@ const Layout = ({ children, data }) => (
       
 
       <YMInitializer accounts={[49113511]} version="2" />
-      yametrika
+      <p>yametrika</p>
       {/* <YaMetrika /> */}
     </div>
     
