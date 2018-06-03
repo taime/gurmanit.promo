@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { YMInitializer } from 'react-yandex-metrika';
 
 import Header from '../components/header'
 import './index.css'
@@ -25,6 +26,7 @@ const Layout = ({ children, data }) => (
       }}
     >
       {children()}
+      <YMInitializer accounts={[49113511]} />
     </div>
     
   </div>
